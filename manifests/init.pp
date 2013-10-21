@@ -1,6 +1,6 @@
 class snmp(
   $ro_community = 'public',
-  $rw_community = undef,
+#  $rw_community = undef,
 ) inherits snmp::params {
 
   validate_string($ro_community)
