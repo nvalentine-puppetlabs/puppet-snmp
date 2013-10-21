@@ -1,3 +1,3 @@
-class snmp::server inherits snmp {
+class snmp::service inherits snmp {
   service { $service: ensure => running, enable => true, }
 }
