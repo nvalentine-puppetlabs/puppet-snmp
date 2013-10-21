@@ -4,7 +4,7 @@ class snmp::config inherits snmp {
     ensure => present,
     path => $config,
     match => '^com2sec\s+notConfigUser\s+default.*',
-    line => "com2sec notConfigUser ${ro_community}",
+    line => "com2sec notConfigUser default ${ro_community}",
   }
 
   if $rw_community {
@@ -12,7 +12,7 @@ class snmp::config inherits snmp {
       ensure => present,
       path => $config,
       match => '^com2sec\s+notConfigUser\s+default.*',
-      line => "com2sec notConfigUser ${rw_community}",
+      line => "com2sec notConfigUser default ${rw_community}",
     }
   }
 }
