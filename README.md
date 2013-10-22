@@ -1,7 +1,7 @@
 puppet-snmp
 -----------
 
-Very basic Puppet module to install and configure RO snmpd.
+Very basic Puppet module to install and configure RO snmpd on Red Hat ::osfamily.
 
 # Usage
     class { 'snmp':
