@@ -1,0 +1,29 @@
+{
+  "name": "nvpuppet/snmp",
+  "version": "0.5.1",
+  "source": "https://github.com/nvalentine-puppetlabs/puppet-snmp",
+  "author": "Nathan Valentine nathan@puppetlabs.com|nrvale0@gmail.com",
+  "license": "Apache License, Version 2.0",
+  "summary": "Basic snmpd config for RH $::osfamily",
+  "description": "Basic snmpd config for RH $::osfamily",
+  "project_page": "https://github.com/nvalentine-puppetlabs/puppet-snmp",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "9043f105069a482eb8c650049d8ebccd",
+    "README.md": "969e13e4d275c00571d33e1a69318bd2",
+    "manifests/init.pp": "d34f15fa694cfb7d720bde2fc2957850",
+    "manifests/params.pp": "f26aa346619a87f29d715b19f308412c",
+    "manifests/snmp/config.pp": "6c5a2725078f86a54e98b1f4e43c2c8d",
+    "manifests/snmp/install.pp": "c9af23db62cd67d827580b42263d9ef9",
+    "manifests/snmp/service.pp": "dfb890cf54d27378368230445821c324",
+    "tests/init.pp": "c628ff2a779ac36bfa1dafcbb78b3db9"
+  }
+}
