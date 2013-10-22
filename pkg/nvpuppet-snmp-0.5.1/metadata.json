@@ -18,7 +18,7 @@
   ],
   "checksums": {
     "Modulefile": "9043f105069a482eb8c650049d8ebccd",
-    "README.md": "969e13e4d275c00571d33e1a69318bd2",
+    "README.md": "952a9b7528d34f4d123f1fe1a6e447f3",
     "manifests/init.pp": "d34f15fa694cfb7d720bde2fc2957850",
     "manifests/params.pp": "f26aa346619a87f29d715b19f308412c",
     "manifests/snmp/config.pp": "6c5a2725078f86a54e98b1f4e43c2c8d",
