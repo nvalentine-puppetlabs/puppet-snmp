@@ -1,5 +1,5 @@
 name    'nvpuppet/snmp'
-version '0.5.0'
+version '0.5.1'
 source 'https://github.com/nvalentine-puppetlabs/puppet-snmp'
 author 'Nathan Valentine nathan@puppetlabs.com|nrvale0@gmail.com'
 license 'Apache License, Version 2.0'
