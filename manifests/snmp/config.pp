@@ -27,6 +27,6 @@ class snmp::config inherits snmp {
     ensure => present,
     path => $config,
     match => '^\s*syscontact.*$',
-    line => "syscontact ${contact",
+    line => "syscontact ${contact}",
   }
 }
