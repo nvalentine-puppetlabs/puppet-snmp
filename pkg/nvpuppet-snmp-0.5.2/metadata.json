@@ -1,6 +1,6 @@
 {
   "name": "nvpuppet/snmp",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "source": "https://github.com/nvalentine-puppetlabs/puppet-snmp",
   "author": "Nathan Valentine nathan@puppetlabs.com|nrvale0@gmail.com",
   "license": "Apache License, Version 2.0",
@@ -17,7 +17,7 @@
 
   ],
   "checksums": {
-    "Modulefile": "9043f105069a482eb8c650049d8ebccd",
+    "Modulefile": "f37e679b94bdeb1e47323201a20fe723",
     "README.md": "3ca1919d83963f633e7855f208af0093",
     "manifests/init.pp": "1f9c2712664c0c49a7e3dc0385aac8ce",
     "manifests/params.pp": "f26aa346619a87f29d715b19f308412c",
