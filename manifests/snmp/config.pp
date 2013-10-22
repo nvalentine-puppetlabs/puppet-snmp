@@ -15,4 +15,18 @@ class snmp::config inherits snmp {
       line => "com2sec notConfigUser default ${rw_community}",
     }
   }
+
+  file_line { 'syslocation':
+    ensure => present,
+    path => $config,
+    match => '^\s*syslocation.*$',
+    line => "syslocation ${location}",
+  }
+
+  file_line { 'syscontact': 
+    ensure => present,
+    path => $config,
+    match => '^\s*syscontact.*$',
+    line => "syscontact ${contact",
+  }
 }
